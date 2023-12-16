@@ -1,0 +1,15 @@
+h2{
+    color:rgba(32, 32, 11, 0.97)
+    
+}
+#main{
+    background-color: #fea49f;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    border: 2px black;
+}
+@media only screen and (max-width: 580px) {
+    #main {
+      flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+    background-color:rgb(210, 202, 202);
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+p{
+    font-weight: bold;
+}
+#submit{
+  
+  background-color: darksalmon;
+  border-radius:10px;
+}
+.box{
+    width:400px;
+    height:50px;
+    background-color: #fea49f;
+    border-radius:10px;
+    margin:auto;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    border : 4 px solid black;
+    align-items: center;
+}
+h1 {
+  color: black;
+  text-shadow: 2px 2px 4px whitesmoke;
+}
+.container-fluid{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: 2px solid black;
+   width:1200px; 
+}
